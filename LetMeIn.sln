@@ -1,13 +1,13 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30014.187
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetMeIn.Android", "LetMeIn\LetMeIn.Android\LetMeIn.Android.csproj", "{11EEA8AD-7DA1-40A7-8BFD-A81C6894BDEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LetMeIn", "LetMeIn\LetMeIn.csproj", "{A71A4AB0-1BF3-4114-BAFF-2F9E25FBFB16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetMeIn.iOS", "LetMeIn\LetMeIn.iOS\LetMeIn.iOS.csproj", "{F9C364B0-77F7-4B70-B002-8A0B781941AC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetMeIn.iOS", "LetMeIn.iOS\LetMeIn.iOS.csproj", "{F9C364B0-77F7-4B70-B002-8A0B781941AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetMeIn", "LetMeIn\LetMeIn\LetMeIn.csproj", "{A7F408E3-5191-45B2-AA96-B5FE53367BB7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetMeIn.Android", "LetMeIn.Android\LetMeIn.Android.csproj", "{11EEA8AD-7DA1-40A7-8BFD-A81C6894BDEE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
