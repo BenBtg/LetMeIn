@@ -25,7 +25,7 @@ pool:
 # https://marketplace.visualstudio.com/items?itemName=DamienAicheh.launch-icon-task
 
 variables:
-  - group: secret
+  - group: LetMeIn Secrets
   - name: xamarinSdkVersion
     value: '6_6_0'
   - name: solutionPath
