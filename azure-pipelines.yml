@@ -33,9 +33,9 @@ variables:
   - name: buildConfiguration
     value: 'Release'
   - name: packageName
-    value: ''
+    value: 'com.benbtg.letmein'
   - name: appLabel
-    value: ''
+    value: 'LetMeIn'
   - name: bundleIdentifier
     value: 'com.benbtg.letmein'
   - name: bundleName
