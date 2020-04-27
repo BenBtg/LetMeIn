@@ -43,15 +43,15 @@ variables:
   - name: bundleDisplayName
     value: 'LetMeIn'
   - name: serverEndpoint # Visual Studio App Center endpoint
-    value: ''
+    value: 'BenBtgAppCenter'
   - name: iOSAppSlug
-    value: ''
+    value: 'Btg/LetMeIn-iOS'
   - name: androidAppSlug
-    value: ''
+    value: 'Btg/LetMeIn-Android'
   - name: iOSDistributionGroupId
-    value: ''
+    value: 'Collaborators'
   - name: androidDistributionGroupId
-    value: ''
+    value: 'Collaborators'
 
 stages:
   - stage: Run_Unit_Tests
