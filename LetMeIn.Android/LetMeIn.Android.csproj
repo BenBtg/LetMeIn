@@ -16,7 +16,6 @@
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
     <AndroidEnableSGenConcurrent>true</AndroidEnableSGenConcurrent>
     <AndroidUseAapt2>true</AndroidUseAapt2>
@@ -90,7 +89,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LetMeIn\LetMeIn.csproj">
-      <Project>{DE475823-C629-4E9B-B5DF-9F91240F8B14}</Project>
+      <Project>{A71A4AB0-1BF3-4114-BAFF-2F9E25FBFB16}</Project>
       <Name>LetMeIn</Name>
     </ProjectReference>
   </ItemGroup>
