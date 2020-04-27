@@ -49,9 +49,9 @@ variables:
   - name: androidAppSlug
     value: 'Btg/LetMeIn-Android'
   - name: iOSDistributionGroupId
-    value: 'BetaTesters'
+    value: '15d28ab5-fa25-41da-845d-64344db64b0d'
   - name: androidDistributionGroupId
-    value: 'BetaTesters'
+    value: '24270c80-839f-43db-a493-1ab6758fd336'
 
 stages:
   - stage: Run_Unit_Tests
