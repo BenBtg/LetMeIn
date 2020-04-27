@@ -37,11 +37,11 @@ variables:
   - name: appLabel
     value: ''
   - name: bundleIdentifier
-    value: ''
+    value: 'com.benbtg.letmein'
   - name: bundleName
-    value: ''
+    value: 'LetMeIn'
   - name: bundleDisplayName
-    value: ''
+    value: 'LetMeIn'
   - name: serverEndpoint # Visual Studio App Center endpoint
     value: ''
   - name: iOSAppSlug
