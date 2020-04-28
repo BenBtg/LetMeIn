@@ -6,6 +6,7 @@ using Microsoft.AppCenter.Analytics;
 using Microsoft.AppCenter.Crashes;
 using Foundation;
 using UIKit;
+using Microsoft.Identity.Client;
 
 namespace LetMeIn.iOS
 {
@@ -31,6 +32,12 @@ namespace LetMeIn.iOS
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);
+        }
+
+        public override bool OpenUrl(UIApplication app, NSUrl url, NSDictionary options)
+        {
+            AuthenticationContinuationHelper.SetAuthenticationContinuationEventArgs(url);
+            return true;
         }
     }
 }
