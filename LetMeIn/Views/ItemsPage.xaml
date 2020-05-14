@@ -36,7 +36,7 @@
                         <Label Text="{Binding Description}" 
                                 d:Text="Item descripton"
                                 LineBreakMode="NoWrap"
-                                Style="{DynamicResource ListItemDetailTextStyle}"
+                                Style="{DynamicResource ListItemDetailTextStle}"
                                 FontSize="13" />
                         <StackLayout.GestureRecognizers>
                             <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="OnItemSelected"></TapGestureRecognizer>

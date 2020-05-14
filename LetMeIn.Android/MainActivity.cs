@@ -1,10 +1,13 @@
 ﻿using Android.App;
+using Android.Content;
 using Android.Content.PM;
 using Android.OS;
 using Android.Runtime;
 using Microsoft.AppCenter;
 using Microsoft.AppCenter.Analytics;
 using Microsoft.AppCenter.Crashes;
+using Microsoft.Identity.Client;
+
 namespace LetMeIn.Droid
 {
     [Activity(Label = "LetMeIn", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
@@ -29,6 +32,12 @@ namespace LetMeIn.Droid
             Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
 
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+        }
+
+        protected override void OnActivityResult(int requestCode, Result resultCode, Intent data)
+        {
+            base.OnActivityResult(requestCode, resultCode, data);
+            AuthenticationContinuationHelper.SetAuthenticationContinuationEventArgs(requestCode, resultCode, data);
         }
     }
 }
